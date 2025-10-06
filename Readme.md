@@ -4,6 +4,8 @@
 
 MedPAO is an intelligent agent system designed to process and structure medical radiology reports according to the standardized P.A.B.C.D.E.F protocol for chest x-ray interpretation. The system extracts medical concepts from free-text radiology reports, maps them to standard medical ontologies, and organizes them into a structured clinical format.
 
+📘 **Read our published paper**: [here](https://link.springer.com/chapter/10.1007/978-3-032-06004-4_4)
+
 ## Features
 
 - Extracts key medical concepts from free-text reports
@@ -124,3 +126,38 @@ The system generates several output files for each sample case in the `savings/`
 - `categorized_report.json`: Contains the output of `generate_report` tool, i.e., Final structured report.
 
 
+## 📖 Citation
+
+If you use **MedPAO** in your research, please cite:
+
+```bibtex
+@InProceedings{10.1007/978-3-032-06004-4_4,
+  author    = {Vaidya, Shrish Shrinath and Palani, Gowthamaan and Ramesh, Sidharth and
+               Balasubramanian, Velmurugan and Selvam, Minmini and
+               Srinivasaraja, Gokulraja and Krishnamurthi, Ganapathy},
+  editor    = {Qiu, Jianing and Wu, Jinlin and Langlotz, Curtis and Huang, Baoru and
+               Lei, Zhen and Wu, Honghan and Liu, Hongbin and Xie, Weidi},
+  title     = {MedPAO: A Protocol-Driven Agent for Structuring Medical Reports},
+  booktitle = {AI for Clinical Applications},
+  year      = {2026},
+  publisher = {Springer Nature Switzerland},
+  address   = {Cham},
+  pages     = {33--45},
+  abstract  = {The deployment of Large Language Models (LLMs) for structuring clinical
+               data is critically hindered by their tendency to hallucinate facts and
+               their inability to follow domain-specific rules. To address this, we
+               introduce MedPAO, a novel agentic framework that ensures accuracy and
+               verifiable reasoning by grounding its operation in established clinical
+               protocols such as the ABCDEF protocol for CXR analysis. MedPAO
+               decomposes the report structuring task into a transparent process
+               managed by a Plan-Act-Observe (PAO) loop and specialized tools. This
+               protocol-driven method provides a verifiable alternative to opaque,
+               monolithic models. The efficacy of our approach is demonstrated through
+               rigorous evaluation: MedPAO achieves an F1-score of 0.96 on the critical
+               sub-task of concept categorization. Notably, expert radiologists and
+               clinicians rated the final structured outputs with an average score of
+               4.52 out of 5, indicating a level of reliability that surpasses baseline
+               approaches relying solely on LLM-based foundation models. The code is
+               available at: https://github.com/MiRL-IITM/medpao-agent.},
+  isbn      = {978-3-032-06004-4}
+}
