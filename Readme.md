@@ -5,7 +5,7 @@
 MedPAO is an intelligent agent system designed to process and structure medical radiology reports according to the standardized P.A.B.C.D.E.F protocol for chest x-ray interpretation. The system extracts medical concepts from free-text radiology reports, maps them to standard medical ontologies, and organizes them into a structured clinical format.
 
 📘 **Read our published paper**: [here](https://link.springer.com/chapter/10.1007/978-3-032-06004-4_4)
-
+📘 **Read our paper on arxiv**: [here](https://arxiv.org/abs/2510.04623)
 ## Features
 
 - Extracts key medical concepts from free-text reports
