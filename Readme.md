@@ -8,6 +8,24 @@ MedPAO is an intelligent agent system designed to process and structure medical 
 
 📘 **Read our paper on arxiv**: [here](https://arxiv.org/abs/2510.04623)
 
+
+> 🚀 **MedPAO-Fast: Faster and Lightweight Version**
+>
+> A faster and optimized version of MedPAO, **MedPAO-Fast**, has been developed with a focus on reducing computational and deployment requirements while maintaining **comparable performance to the original MedPAO**.
+>
+> **MedPAO-Fast** is designed to be easily deployable on **low-resource hardware and consumer-grade GPUs**, making the framework more accessible for practical and resource-constrained deployments.
+>
+> 📘 **MedPAO-Fast repository:** [GitHub](https://github.com/MiRL-IITM/medpao-fast)
+>
+> **Key advantages of MedPAO-Fast:**
+>
+> * ⚡ Faster inference and optimized execution
+> * 🖥️ Designed for deployment on low-resource / consumer-grade GPUs
+> * 📊 Comparable performance to the original MedPAO
+> * 🧩 Simplified and lightweight deployment
+> * 💾 Reduced computational and hardware requirements
+
+
 ## Features
 
 - Extracts key medical concepts from free-text reports
