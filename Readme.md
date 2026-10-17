@@ -1,5 +1,14 @@
 # MedPAO: A Protocol-Driven Agent for Structuring Medical Reports
 
+## 🧩 The MedPAO family
+
+| Work | What it does | Venue | Paper | Code | Demo |
+|---|---|---|---|---|---|
+| **MedPAO** | Protocol-driven agent that structures free-text radiology reports | MICCAI 2025 Workshop · Springer LNCS | [Springer](https://link.springer.com/chapter/10.1007/978-3-032-06004-4_4) · [arXiv](https://arxiv.org/abs/2510.04623) | [medpao-agent](https://github.com/MiRL-IITM/medpao-agent) | – |
+| **MedPAO-Fast** | Compressed MedPAO (4-bit Qwen3-4B + LoRA) on a single TITAN Xp | – | – | [medpao-fast](https://github.com/MiRL-IITM/medpao-fast) | [🤗 Live demo](https://huggingface.co/spaces/shrishSVaidya/medpao-fast) |
+| **MedPAO-VL** | Explainable, self-correcting agent: chest X-ray → structured report | ECCV 2026 BISCUIT Workshop | [arXiv](https://arxiv.org/abs/2610.21794) · [OpenReview](https://openreview.net/forum?id=JxC8OxgmMw) | [medpao-vl](https://github.com/MiRL-IITM/medpao-vl) | – |
+| **MedPAO-Assist** | Voice-driven, CPU-only edge agent with a 0.6B SLM, 4 modalities | MICCAI 2026 MedAgent Workshop | [MICCAI](https://papers.miccai.org/miccai-2026-sat/MedAgent_025.html) · arXiv soon | [MedPAO-Assist](https://github.com/MiRL-IITM/MedPAO-Assist) (soon) | – |
+
 ## Overview
 
 MedPAO is an intelligent agent system designed to process and structure medical radiology reports according to the standardized P.A.B.C.D.E.F protocol for chest x-ray interpretation. The system extracts medical concepts from free-text radiology reports, maps them to standard medical ontologies, and organizes them into a structured clinical format.
